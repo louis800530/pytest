@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter.ttk import *
-
+from PIL import Image
 class RRR(Frame):
     def __init__(self, m=None):
         Frame.__init__(self,m)
@@ -35,6 +35,9 @@ class RRR(Frame):
         self.dt["text"] = "New Button"
 
 if __name__ == '__main__':
+    
+    im = Image.open("dog.jpg")
+    im.show()
     root= Tk()
     apX=RRR(m=root)
     apX.mainloop()

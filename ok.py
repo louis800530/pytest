@@ -13,7 +13,7 @@ if __name__ == "__main__":
     while True :
            i = f.readline()
            if i=='': break
-           print(i,end='')
+           print(i,end = '')
     f.close()
 
 def sumofAB(a=1,b=5):
